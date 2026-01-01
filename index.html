@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 フォートナイト取引サーバー | 公式ガイドライン</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&family=Poppins:wght@400;600;700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- パーティクル背景 -->
+    <div id="particles"></div>
+
+    <!-- ナビゲーション -->
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <div class="nav-brand">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">FORTNITE TRADE</div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">ホーム</a></li>
+                <li><a href="#rules" class="nav-link">ルール</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="https://discord.gg/wwf8HtpVjM" target="_blank" class="nav-btn">参加する</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="home" class="hero">
+        <div class="hero-bg-effects">
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+            <div class="glow glow-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in">
+                <span class="badge-icon">🔥</span>
+                <span>公式取引サーバー</span>
+            </div>
+            
+            <h1 class="hero-title animate-slide-up">
+                <span class="title-main">FORTNITE</span>
+                <span class="title-sub">取引サーバー</span>
+            </h1>
+            
+            <p class="hero-description animate-fade-in-delay">
+                恋バナ & フォートナイトブレインロット取引の最強コミュニティ
+            </p>
+
+            <!-- 統計カード -->
+            <div class="stats animate-slide-up-delay">
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-value">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-plus">+</span>
+                    </div>
+                    <div class="stat-label">メンバー</div>
+                    <div class="stat-glow"></div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">🟢</div>
+                    <div class="stat-value">
+                        <span class="stat-number" data-target="20">0</span>
+                        <span class="stat-plus">+</span>
+                    </div>
+                    <div class="stat-label">オンライン</div>
+                    <div class="stat-glow"></div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">💎</div>
+                    <div class="stat-value">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-plus">+</span>
+                    </div>
+                    <div class="stat-label">取引成功</div>
+                    <div class="stat-glow"></div>
+                </div>
+            </div>
+
+            <a href="https://discord.gg/wwf8HtpVjM" target="_blank" class="hero-btn animate-pop">
+                <span class="btn-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                    </svg>
+                </span>
+                <span class="btn-text">今すぐDiscordに参加</span>
+                <span class="btn-arrow">→</span>
+                <div class="btn-glow"></div>
+            </a>
+
+            <div class="scroll-hint">
+                <span>スクロール</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 重要なお知らせ -->
+    <section class="alert-section">
+        <div class="container">
+            <div class="alert-box">
+                <div class="alert-icon-wrapper">
+                    <div class="alert-icon">⚠️</div>
+                    <div class="alert-pulse"></div>
+                </div>
+                <div class="alert-content">
+                    <h2 class="alert-title">重要なお知らせ</h2>
+                    <p class="alert-text">
+                        以下のガイドラインを<strong>必ず確認・同意</strong>した上でサーバーをご利用ください。<br>
+                        全ての取引は<span class="text-highlight">自己責任</span>となります。安全に楽しく取引しましょう！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ルールセクション -->
+    <section id="rules" class="rules-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">
+                    <span class="title-icon">📋</span>
+                    サーバールール
+                </h2>
+                <p class="section-subtitle">7つの基本ルールを必ず確認してください</p>
+            </div>
+
+            <div class="rules-grid">
+                <!-- ルール 1 -->
+                <div class="rule-card" data-rule="1">
+                    <div class="rule-header">
+                        <div class="rule-number-wrapper">
+                            <div class="rule-number">01</div>
+                        </div>
+                        <div class="rule-main">
+                            <div class="rule-title">
+                                <span class="rule-emoji">🎮</span>
+                                <span>第1条｜基本ルール</span>
+                            </div>
+                            <div class="rule-desc">サーバーの基本的な利用規約</div>
+                        </div>
+                        <button class="rule-expand">
+                            <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="rule-body">
+                        <ul class="rule-list">
+                            <li>本サーバーはフォートナイト内アイテム等の取引を目的としたサーバーです</li>
+                            <li>すべて自己責任での利用となります</li>
+                            <li>Epic Gamesの利用規約を必ず遵守してください</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ルール 2 -->
+                <div class="rule-card" data-rule="2">
+                    <div class="rule-header">
+                        <div class="rule-number-wrapper">
+                            <div class="rule-number">02</div>
+                        </div>
+                        <div class="rule-main">
+                            <div class="rule-title">
+                                <span class="rule-emoji">🚫</span>
+                                <span>第2条｜禁止行為</span>
+                            </div>
+                            <div class="rule-desc">絶対にやってはいけない行為</div>
+                        </div>
+                        <button class="rule-expand">
+                            <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="rule-body">
+                        <ul class="rule-list">
+                            <li>詐欺行為、詐欺の疑いがある行為</li>
+                            <li>虚偽の情報を用いた取引</li>
+                            <li>なりすまし行為</li>
+                            <li>外部サイトやDMへの強制誘導</li>
+                            <li>リアルマネートレード（RMT）</li>
+                            <li>暴言、誹謗中傷、煽り行為</li>
+                            <li>スパム、連投、荒らし行為</li>
+                            <li>不正ツール、チートの利用や勧誘</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ルール 3 -->
+                <div class="rule-card" data-rule="3">
+                    <div class="rule-header">
+                        <div class="rule-number-wrapper">
+                            <div class="rule-number">03</div>
+                        </div>
+                        <div class="rule-main">
+                            <div class="rule-title">
+                                <span class="rule-emoji">⚖️</span>
+                                <span>第3条｜取引に関して</span>
+                            </div>
+                            <div class="rule-desc">安全な取引のためのルール</div>
+                        </div>
+                        <button class="rule-expand">
+                            <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="rule-body">
+                        <ul class="rule-list">
+                            <li>取引は必ず指定されたチャンネルで行ってください</li>
+                            <li>取引内容（アイテム名・条件）は明確に記載してください</li>
+                            <li>取引前にスクリーンショット等で証拠を残すことを推奨します</li>
+                            <li>仲介がある場合は必ず管理者指定の仲介のみ使用してください</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ルール 4 -->
+                <div class="rule-card" data-rule="4">
+                    <div class="rule-header">
+                        <div class="rule-number-wrapper">
+                            <div class="rule-number">04</div>
+                        </div>
+                        <div class="rule-main">
+                            <div class="rule-title">
+                                <span class="rule-emoji">⚠️</span>
+                                <span>第4条｜トラブルについて</span>
+                            </div>
+                            <div class="rule-desc">問題が発生した場合の対応</div>
+                        </div>
+                        <button class="rule-expand">
+                            <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="rule-body">
+                        <ul class="rule-list">
+                            <li>取引トラブルが発生した場合、運営は可能な範囲で対応します</li>
+                            <li>証拠がない場合、対応できないことがあります</li>
+                            <li>最終的な責任は当事者間にあります</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ルール 5 -->
+                <div class="rule-card" data-rule="5">
+                    <div class="rule-header">
+                        <div class="rule-number-wrapper">
+                            <div class="rule-number">05</div>
+                        </div>
+                        <div class="rule-main">
+                            <div class="rule-title">
+                                <span class="rule-emoji">🛡️</span>
+                                <span>第5条｜処罰について</span>
+                            </div>
+                            <div class="rule-desc">ルール違反時の処罰内容</div>
+                        </div>
+                        <button class="rule-expand">
+                            <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="rule-body">
+                        <ul class="rule-list">
+                            <li>ルール違反が確認された場合、以下の処罰を行うことがあります</li>
+                            <li>　警告 / 一時ミュート / キック / BAN</li>
+                            <li>悪質な場合は即BANとなる場合があります</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ルール 6 -->
+                <div class="rule-card" data-rule="6">
+                    <div class="rule-header">
+                        <div class="rule-number-wrapper">
+                            <div class="rule-number">06</div>
+                        </div>
+                        <div class="rule-main">
+                            <div class="rule-title">
+                                <span class="rule-emoji">📄</span>
+                                <span>第6条｜免責事項</span>
+                            </div>
+                            <div class="rule-desc">運営の責任範囲について</div>
+                        </div>
+                        <button class="rule-expand">
+                            <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="rule-body">
+                        <ul class="rule-list">
+                            <li>本サーバーはEpic Games, Fortniteとは一切関係ありません</li>
+                            <li>サーバー内で発生した損害・トラブルについて、運営は責任を負いません</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ルール 7 -->
+                <div class="rule-card" data-rule="7">
+                    <div class="rule-header">
+                        <div class="rule-number-wrapper">
+                            <div class="rule-number">07</div>
+                        </div>
+                        <div class="rule-main">
+                            <div class="rule-title">
+                                <span class="rule-emoji">🔄</span>
+                                <span>第7条｜ルール変更</span>
+                            </div>
+                            <div class="rule-desc">ガイドラインの更新について</div>
+                        </div>
+                        <button class="rule-expand">
+                            <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="rule-body">
+                        <ul class="rule-list">
+                            <li>ガイドラインは予告なく変更される場合があります</li>
+                            <li>常に最新のルールを確認してください</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">
+                    <span class="title-icon">❓</span>
+                    よくある質問
+                </h2>
+                <p class="section-subtitle">困ったときはここをチェック</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-card">
+                    <button class="faq-question">
+                        <span class="faq-q-text">取引は安全ですか？</span>
+                        <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>すべて自己責任での取引となります。証拠を残し、指定チャンネルで取引を行うことで安全性が高まります。</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button class="faq-question">
+                        <span class="faq-q-text">詐欺にあった場合はどうすればいいですか？</span>
+                        <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>証拠のスクリーンショットを持って運営に報告してください。可能な範囲で対応しますが、証拠がない場合は対応できないことがあります。</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button class="faq-question">
+                        <span class="faq-q-text">RMT（リアルマネートレード）は禁止ですか？</span>
+                        <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>はい、RMTは厳禁です。発見次第、即BANとなります。</p>
+                    </div>
+                </div>
+
+                <div class="faq-card">
+                    <button class="faq-question">
+                        <span class="faq-q-text">取引チャンネルはどこですか？</span>
+                        <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>サーバー参加後、指定された取引チャンネルをご確認ください。詳細はサーバー内のガイドをチェック！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-glow"></div>
+                <div class="cta-content">
+                    <h2 class="cta-title">🎮 今すぐ参加しよう！</h2>
+                    <p class="cta-text">フォートナイト取引と恋バナを楽しもう</p>
+                    <a href="https://discord.gg/wwf8HtpVjM" target="_blank" class="cta-btn">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                            </svg>
+                        </span>
+                        Discordサーバーに参加
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="brand-icon">⚡</div>
+                        <div class="brand-text">FORTNITE TRADE</div>
+                    </div>
+                    <p class="footer-desc">安全な取引と楽しいコミュニティ</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>リンク</h4>
+                        <a href="#home">ホーム</a>
+                        <a href="#rules">ルール</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>サポート</h4>
+                        <a href="https://discord.gg/wwf8HtpVjM" target="_blank">Discordサーバー</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>本サーバーはEpic Games, Fortniteとは一切関係ありません</p>
+                <p>© 2024 フォートナイト取引サーバー. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- トップに戻る -->
+    <button class="scroll-top" id="scrollTop">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 15l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
